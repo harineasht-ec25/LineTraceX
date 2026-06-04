@@ -1,6 +1,6 @@
 # 🤖 LineTracerX
 
-**LineTracerX** is a high-precision line follower robot built using Arduino Nano, designed for fast and stable path tracking using a 5-array IR sensor system and efficient motor control via the TB6612FNG driver.
+**LineTracerX** is a high-precision line follower bot built using Arduino Nano, designed for fast and stable path tracking using a 5-array IR sensor system and efficient motor control via the TB6612FNG driver.
 
 ---
 
@@ -20,9 +20,9 @@
 * Arduino Nano
 * TB6612FNG Motor Driver
 * 5-Channel IR Sensor Array
-* DC Gear Motors (2)
+* DC Stepper Motors (2)
 * Robot Chassis
-* Battery Pack (Li-ion / 18650)
+* Battery Pack (Li-Po / Li-ion )
 * Jumper Wires
 
 ---
@@ -43,13 +43,13 @@
 
 | Driver Pin | Arduino Pin |
 | ---------- | ----------- |
-| PWMA       | D5          |
-| AIN1       | D2          |
+| PWMA       | D9          |
+| AIN1       | D4          |
 | AIN2       | D3          |
-| PWMB       | D6          |
-| BIN1       | D7          |
-| BIN2       | D8          |
-| STBY       | D4          |
+| PWMB       | D10         |
+| BIN1       | D6          |
+| BIN2       | D7          |
+| STBY       | D5          |
 
 ---
 
@@ -102,14 +102,14 @@ LineTracerX/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/LineTracerX.git
+   git clone https://github.com/harineasht-ec25/LineTracerX.git
    ```
 
 2. Open `line_follower.ino` in Arduino IDE
 
 3. Select Board:
 
-   * Arduino Nano (ATmega328P)
+   * Arduino Nano
 
 4. Upload the code
 
@@ -119,7 +119,8 @@ LineTracerX/
 
 ## 📌 Future Improvements
 
-* 🚀 PID control for ultra-smooth tracking
+* 🚀 Customising PID Values for ultra-smooth tracking
+* 🚀 Calibarting the bot before on to the track
 
 ---
 
