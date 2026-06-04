@@ -91,7 +91,7 @@ LineTracerX/
 │── code/
 │   └── line_follower.ino
 │── docs/
-│── images/
+│── PhotoDumps/
 │── README.md
 ```
 
