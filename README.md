@@ -1,6 +1,6 @@
 # 🤖 LineTracerX
 
-**LineTracerX** is a high-precision line follower bot built using Arduino Nano, designed for fast and stable path tracking using a 5-array IR sensor system and efficient motor control via the TB6612FNG driver.
+**LineTracerX** is a high-precision line follower bot built using Arduino Nano, designed for fast and stable path tracking using a 5-array IR sensor system and efficient motor control via the TB6612FNG driver....
 
 ---
 
